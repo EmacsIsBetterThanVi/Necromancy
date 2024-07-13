@@ -1,3 +1,4 @@
+![](https://raw.githubusercontent.com/EmacsIsBetterThanVi/Necromancy/main/necromancy.png)
 # Necromancy
 Necromancy is a animation driver writen for the godot game engine. <br/>
 Necromancy defines a set of functions for interacting with objects added to it, along with a AnimationDriver Object which allows for defining annimations to be automaticaly performed
