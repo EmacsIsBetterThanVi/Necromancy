@@ -5,7 +5,7 @@ var BoundData: = {
 }
 func bind(node: Spatial, name: String, parent: String):
 	BoundData.merge({name : {"NODE" : node, "POS" : node.translation, "DEG" : node.rotation_degrees, "PARENT" : parent, "CHILDREN" : []}}, true)
-	if parent!=null:
+	if parent!="":
 		((BoundData.get(parent) as Dictionary).get("CHILDREN") as Array).append(name)
 func updateObj(key: String):
 	var OBJECT: = ((BoundData.get(key) as Dictionary).get("NODE") as Spatial)
